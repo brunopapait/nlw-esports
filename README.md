@@ -1,4 +1,4 @@
-# Plataforma de eventos
+# E-Sports
 
 ## Sobre o projeto
 
