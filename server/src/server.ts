@@ -1,14 +1,42 @@
-import express from 'express';
+import express, {request, Request, Response} from 'express';
 
 const app = express();
 
-app.get('/ads', (request, response) => {
-  return response.status(200).json([
-    { id: 1, nome: "Anuncio 1" },
-    { id: 2, nome: "Anuncio 2" },
-    { id: 3, nome: "Anuncio 3" },
-    { id: 4, nome: "Anuncio 4" },
-  ]);
+/**
+ * Listagem de games com contagem de anúncios
+ */
+app.get('/games', (request: Request, response: Response) => {
+  return response.json([]);
+});
+
+/**
+ * Criar um novo anúncio
+ */
+app.post('/ads', (request: Request, response: Response) => {
+  return response.json([]);
+})
+
+
+/**
+ * Listagem de anúncios por game
+ */
+app.get('/game/:gameId/ads', (request: Request, response: Response) => {
+  const gameId = request.params.gameId;
+
+  console.log(gameId);
+  
+  return response.status(200).json([ ]);
+});
+
+/**
+ * Buscar Discord pelo ID do anúncio
+ */
+app.get('/ads/:adsId/discord', (request: Request, response: Response) => {
+  const adsId = request.params.adsId;
+
+  console.log(adsId);
+  
+  return response.status(200).json([]);
 });
 
 app.listen(3333, () => console.log("Server started on port 3333"));
