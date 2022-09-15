@@ -1,4 +1,4 @@
-# E-Sports
+# NLW E-Sports
 
 ## Sobre o projeto
 
