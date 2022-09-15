@@ -1,3 +1,4 @@
+import { THEME } from './../../theme/index';
 import { Inter_200ExtraLight } from '@expo-google-fonts/inter';
 import { StyleSheet } from 'react-native';
 
@@ -40,5 +41,17 @@ export const styles = StyleSheet.create({
     paddingLeft: 32,
     paddingRight: 64,
     alignItems: 'flex-start',
+  },
+
+  emptyListText: {
+    color: THEME.COLORS.CAPTION_300,
+    fontSize: THEME.FONT_SIZE.SM,
+    fontFamily: THEME.FONT_FAMILY.REGULAR,
+  },
+
+  emptyListTextContent: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: "center"
   }
 });
