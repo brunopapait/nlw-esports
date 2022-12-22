@@ -6,7 +6,7 @@ Este é um projeto desenvolvido no evento Next Level Week realizado pela equipe 
 
 ## Objetivo
 
-O objetivo geral desse projeto é a o desenvolvimento de uma plataforma voltada para a area de E-sports para pessoas se conectarem com outras e jogar juntos seus jogos favoritos.
+O objetivo geral desse projeto é a o desenvolvimento de uma plataforma voltada para a área de E-sports para pessoas se conectarem com outras e jogar juntos seus jogos favoritos.
 
 ## Tecnologias
 
